@@ -20,6 +20,8 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from typing import Dict, List
 import numpy as np
+import nest_asyncio
+nest_asyncio.apply()
 
 
 # %%
